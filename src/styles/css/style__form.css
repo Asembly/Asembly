@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/*imports*/
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/*variables*/
+/*main wrapper*/
+.wrapper {
+  /*set size of wrapper*/
+  height: 100%;
+  /*option display*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /*set font option*/
+  color: #090C0C;
+  font: 700 1.3em 'Montserrat', sans-serif;
+}
+
+/*block header*/
+.wrapper__header {
+  /*padding block*/
+  padding: 20px;
+  /*canceled*/
+}
+
+.header__item .e {
+  fill: #7bc9c0;
+}
+
+.header__item .d {
+  fill: #090C0C;
+  opacity: 0.15;
+}
+
+/*block section*/
+.wrapper__section {
+  /*set height for block*/
+  max-height: auto;
+  /*padding block*/
+  padding: 10px 10px 40px 10px;
+  /*option display*/
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*setting background image*/
+  /*canceled*/
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+/*block form {.section}*/
+.wrapper__form {
+  /*alignment elements*/
+  text-align: center;
+  /*margin elements from top*/
+  margin-top: 100px;
+  /*block element*/
+  /*block element*/
+  /*block element*/
+  /*block element*/
+  /*block element*/
+}
+
+.wrapper__form .form__element {
+  /*padding for element*/
+  padding-top: 20px;
+}
+
+.wrapper__form .element__input {
+  /*alignment elements input*/
+  text-align: center;
+  /*set background color for input elements*/
+  background-color: aliceblue;
+  /*padding block*/
+  padding: 10px 40px 10px 40px;
+  border-radius: 6px;
+}
+
+.wrapper__form .element__button {
+  /*setting size for button*/
+  padding: 10px 60px 10px 60px;
+  /*setting background color for button*/
+  background-color: #7bc9c0;
+  /*setting radius for button*/
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.wrapper__form .element__button:hover {
+  /*setting color for button*/
+  background-color: #82d8ce;
+  color: white;
+  /*set transition animation for button*/
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  /*option shadow*/
+  text-shadow: 0px 0px 8px whitesmoke;
+  -webkit-box-shadow: 0 0px 10px rgba(0, 0, 0, 0.267);
+          box-shadow: 0 0px 10px rgba(0, 0, 0, 0.267);
+}
+
+.wrapper__form .element__subtitle {
+  font-size: 0.8em;
+}
+
+.wrapper__form .element__subtitle .element__link {
+  color: #688fd8;
+}
+
+.wrapper__form .element__subtitle .element__link:hover {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  color: #79a2ee;
+  text-shadow: 0px 0px 0.5px #79a2ee;
+}
+
+/*block footer*/
+.wrapper__footer {
+  /*set size*/
+  height: 145px;
+  /*option display*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*set background color*/
+  background-color: #090C0C;
+}
+
+.wrapper__footer .footer__item {
+  /*set font color for title*/
+  color: white;
+  /*set position elements*/
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+/*media settings*/
+@media (max-width: 380px) {
+  .wrapper__footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
