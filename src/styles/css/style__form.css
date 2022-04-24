@@ -143,6 +143,8 @@ h1, h2, h3, h4, h5, h6 {
   /*block element*/
   /*block element*/
   /*block element*/
+    position: absolute;
+    left: 40.7%;
 }
 
 .wrapper__form .form__element {
@@ -230,9 +232,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.colour
-{
+.colour {
     cursor: pointer;
+    color: #2134c4;
 }
 
 @keyframes integ_appear{
@@ -257,16 +259,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.appear
-{
+.appear {
     animation: integ_appear 0.5s 0s forwards;
 }
 
-.disappear
-{
+.disappear {
     animation: integ_disappear 0s 0s forwards;
-}
-
-.Elr{
-    position: absolute;
 }

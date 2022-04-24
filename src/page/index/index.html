@@ -22,6 +22,8 @@
             </header>
 
             <section class="wrapper__section section">
+              <!-- Появление/исчезновение формы регистрации -->
+               <div class="appear" id="visability1">
                 <form class="wrapper__form" action="#" method="post">
 
                     <div class="form__element">
@@ -43,25 +45,40 @@
                             Register
                         </button>
                     </div>
-            <div class="appear" id="visability1">
-                <div class="Elr">
                     <div class="form__element">
-                        <p class="element__subtitle">
+                        <div class="element__subtitle">
                             if you already have an account - <a class="colour" id="switch1">sign in</a>
-                        </p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="disappear" id="visability2">
-                <div class="Elr">
+                </form>
+              </div>
+              <!-- Появление/исчезновение формы входа -->
+               <div class="disappear" id="visability2">
+                <form class="wrapper__form" action="#" method="post">
+
+                    <div class="form__element">
+                        <h1 class="element__title">
+                            Sign in
+                        </h1>
+                    </div>
+                    <div class="form__element">
+                        <input class="element__input" type="text" name="login" id="login" placeholder="enter Login">
+                    </div>
+                    <div class="form__element">
+                        <input class="element__input" type="password" name="password" id="password" placeholder="enter Password">
+                    </div>
+                    <div class="form__element">
+                        <button class="element__button">
+                            Sign in
+                        </button>
+                    </div>
                     <div class="form__element">
                         <p class="element__subtitle">
                             Don't have an account yet? - <a class="colour" id="switch2">Register</a>
                         </p>
                     </div>
-                </div>
-            </div>
                 </form>
+                </div>
             </section>
 
             <footer class="wrapper__footer footer">
