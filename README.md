@@ -16,7 +16,31 @@
       </div>
       <div>
         <h6>
-          Примеры моих проектов:
+          <div>
+              Примеры моих проектов:
+          </div>
+          <li>
+            <ul>
+              <a href="https://github.com/Asembly/boxy-market">boxy-market</a>
+              </br>
+              Microservice marketplace, with caching and payment
+            </ul>
+            <ul>
+              <a href="https://github.com/Asembly/MicroChat">micro-chat</a>
+              </br>
+              Microservice realtime chatting app, with websockets
+            </ul>
+            <ul>
+              <a href="https://github.com/Asembly/to-do-task">todo-task</a>
+              </br>
+              Simple monolith app, for tracking your tasks
+            </ul>
+            <ul>
+              <a href="https://github.com/Asembly/UrlShortener">url-shortener</a>
+              </br>
+              Simple monolith app, for short links
+            </ul>
+          </li>
         </h6>
       </div>
     </td>
@@ -26,7 +50,6 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/notepad.gif" alt="Site created with Notepad" height="30" />
-<!-- "margin-right: whatever;" -->
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/ie_logo.gif" alt="Microsoft Internet Explorer" />
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
